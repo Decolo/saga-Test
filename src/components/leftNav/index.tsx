@@ -3,16 +3,19 @@ import { Link } from 'react-router-dom';
 
 const LeftNav = (props) => {
   return (
-    <div className="left-nav">
+    <aside className="left-nav">
       <ul className="list">
         <li>
-          <Link to="/">Home</Link> 
+          <Link to="/">home</Link> 
         </li>
         <li>
-          <Link to="/about">About</Link> 
+          <Link to="/content">content</Link> 
+        </li>
+        <li>
+          <Link to="/about">about</Link> 
         </li>
       </ul>
-    </div>
+    </aside>
   )
 }
 

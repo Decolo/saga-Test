@@ -1,0 +1,14 @@
+{
+  "getTestData": {
+    "resultCode": 1,
+    "msg": "success",
+    "data": [{
+      "id": 1,
+      "content": "aaa"
+    }, {
+      "id": 2,
+      "content": "bbb"
+    }],
+    "total": 1
+  }
+}
