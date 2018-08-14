@@ -9,7 +9,6 @@ const About = () => (
   <div className="about">about</div>
 )
 
-
 const Home = () => (
   <div className="home">home</div>
 )
