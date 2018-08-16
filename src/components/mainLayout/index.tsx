@@ -4,6 +4,7 @@ import './style.scss';
 import TopBar from '../topbar';
 import LeftNav from '../leftNav';
 import Content from '../../container/content/index';
+import Bar from '../../container/bar/index';
 
 const About = () => (
   <div className="about">about</div>
@@ -22,7 +23,7 @@ class MainLayout extends React.Component<any, any> {
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/content" component={Content} />
-          <Route path="/about" component={About} />
+          <Route path="/bar" component={Bar} />
           <Redirect to="/" />
         </Switch>        
       </div>

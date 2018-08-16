@@ -12,7 +12,7 @@ const LeftNav = (props) => {
           <Link to="/content">content</Link> 
         </li>
         <li>
-          <Link to="/about">about</Link> 
+          <Link to="/bar">bar</Link> 
         </li>
       </ul>
     </aside>
